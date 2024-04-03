@@ -1,9 +1,9 @@
 # Spark COVID-19 Data Analysis
 
-This project utilizes Jupyter Notebooks for analyzing COVID-19 data. It includes two main notebooks:
+This project utilizes Python Notebooks for analyzing COVID-19 data. It includes two main notebooks:
 
-- `api_to_csv.ipynb`: Jupyter Notebook for fetching COVID-19 data from an API and saving it to a CSV file.
-- `data_analyse.ipynb`: Jupyter Notebook for analyzing the fetched COVID-19 data, generating insights, and running an HTTP server to expose RESTful APIs.
+- `api_to_csv.ipynb`: Python Notebook for fetching COVID-19 data from an API and saving it to a CSV file.
+- `data_analyse.ipynb`: Python Notebook for analyzing the fetched COVID-19 data, generating insights, and running an HTTP server to expose RESTful APIs.
 
 ## Overview
 
@@ -44,9 +44,9 @@ This notebook performs the following tasks:
 
 ## Dependencies
 
-- Jupyter Notebook
+- Python Notebook
 - Pandas
 - Requests (for fetching data from the API)
-- Flask (for running the HTTP server)
+- Spark
 - Other dependencies as required (specified within the notebooks)
 
